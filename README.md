@@ -5,6 +5,6 @@ SOURCE CODE: https://pastebin.com/eBcYYUrh
 
 Invite the bot: http://bit.ly/inviteASUKA  
 
-Just be warned some of the commands can be perceived as offensive but are meant as such so please be warned and don't read any further  
+Just be warned some of the commands can be perceived as offensive but aren't meant as such so please be warned and don't read any further  
 
 https://sites.google.com/view/meshdev/discord-bots/asuka-bot  
