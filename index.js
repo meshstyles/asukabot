@@ -140,6 +140,15 @@ bot.on("message", async message => {
             return message.channel.send("https://i1.sndcdn.com/artworks-000075877369-c3ow6o-t500x500.jpg");
         case `diva`:
             return message.channel.send("http://www.clearancexl.co.uk/WebRoot/Store3/Shops/es136752/5860/491B/AE98/CEC8/8511/0A0F/111B/C8F3/snickers_bar_ml.jpg");
+        case `save`:
+            message.delete(1);
+            return message.channel.send("https://cdn.discordapp.com/attachments/436982736729931778/522862227728891915/Ist_noch_relativ_safe.jpg")
+        case `iwd`:
+            return message.channel.send("https://www.youtube.com/watch?v=54inBF55uxk");
+        case `speech`:
+            message.delete(1);
+            return message.channel.send("https://imgur.com/mn9rY3A");
+        
     }
     function joiner(){
         var roler = message.guild.roles.find("name", `${args1}`);
