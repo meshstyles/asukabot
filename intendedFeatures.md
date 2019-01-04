@@ -9,3 +9,6 @@ added | `speech` | *resonds and deletes* | https://imgur.com/mn9rY3A
 conceptual | `know` | *responds and deletes* | https://www.youtube.com/watch?v=J49pXs9ZCtE
 requested | `gj` | *responds with and replies to named second* | https://www.youtube.com/watch?v=-yNhl8wT3Pc
 requested | `uuddlrlrba` or `uuddlrlrbas` or `uuddlrlrbass` | *pm and delete -> check if role `new world athlete` exists if not create -> add user to role* | *pm text* radmoized https://www.youtube.com/watch?v=C_vRuqe02Uc https://www.youtube.com/watch?v=lVpyCpGlYmM
+requested | `thot` | posts | https://media.discordapp.net/attachments/447141451579654167/530501924450205745/jQuJGrx.png?width=730&height=676
+requested | `fine` | posts | https://i.redd.it/rxrortawh6821.jpg
+requested | `dew it` | post | http://giphy.com/gifs/pTQUOfSmjo2hG
