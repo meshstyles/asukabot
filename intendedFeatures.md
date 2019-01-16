@@ -12,3 +12,4 @@ requested | `uuddlrlrba` or `uuddlrlrbas` or `uuddlrlrbass` | *pm and delete -> 
 requested | `thot` | posts | https://media.discordapp.net/attachments/447141451579654167/530501924450205745/jQuJGrx.png?width=730&height=676
 requested | `fine` | posts | https://i.redd.it/rxrortawh6821.jpg
 requested | `dew it` | post | http://giphy.com/gifs/pTQUOfSmjo2hG
+requested | `hawt` | post | https://media1.tenor.com/images/7b9394e1d63512cbe01674bc1f1c7ba5/tenor.gif?itemid=13080022
