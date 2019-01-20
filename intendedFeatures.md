@@ -13,3 +13,12 @@ requested | `thot` | posts | https://media.discordapp.net/attachments/4471414515
 requested | `fine` | posts | https://i.redd.it/rxrortawh6821.jpg
 requested | `dew it` | post | http://giphy.com/gifs/pTQUOfSmjo2hG
 requested | `hawt` | post | https://media1.tenor.com/images/7b9394e1d63512cbe01674bc1f1c7ba5/tenor.gif?itemid=13080022
+requested | `schwoll` | post and delete | https://www.youtube.com/watch?v=kx_G2a2hL6U
+requested | `owo` | post | o̲wo̲
+requested | `hit` | post | https://www.youtube.com/watch?v=dNZPT8TjUDw
+requested | `dissapointed` | post | https://www.youtube.com/watch?v=V856p0yjfEA
+requested | `hi` | post | https://www.youtube.com/watch?v=Ebg8TqxKlsM
+requested | `unacceptable` | post | https://youtu.be/vUKgpUZ3iQ8
+requested | `wow` | post | https://youtu.be/EvrL72ekbGE
+requested | `commie` | post | https://youtu.be/_EAPNnMBo-k
+ 
