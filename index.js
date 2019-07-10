@@ -1,8 +1,5 @@
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
-const opus = require('opusscript');
-const fs = require('fs');
-const ytdl = require('ytdl-core');  
 const client = new Discord.Client();
 const bot = new Discord.Client({disableEveryone: true});
 
