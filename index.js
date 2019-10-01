@@ -25,6 +25,7 @@ bot.on("message", async message => {
             //bot uptime calc
         let botuptime = bot.uptime;
         botuptime = botuptime*0.001;
+        //uptime
         switch(message.content.toLocaleLowerCase()){
             case `${prefix}help`:
                 message.delete(1);
@@ -55,6 +56,7 @@ bot.on("message", async message => {
                 return message.channel.send(botembed);
         }
     }
+    //alexa meme
     if(message.content.startsWith(alexa)){
         // alexa
         switch(message.content.toLowerCase()) {
@@ -95,8 +97,9 @@ bot.on("message", async message => {
                 return message.reply(" https://cdn.discordapp.com/attachments/458411479117594625/493416424404942861/squid.png");
         }
     }
+    //for single word commands
     switch(argssingle[0].toLocaleLowerCase()){
-        //for single word commands
+        
         case `burp`:
             return message.reply("Schulz!");
         case `beauty`:
