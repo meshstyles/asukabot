@@ -123,12 +123,6 @@ bot.on("message", async message => {
         
     }
 
-    function leaver(){
-        var roler = message.guild.roles.find("name", `${args1}`);
-        message.reply(`isn't available for ${args1}`);
-        return member.removeRole(roler).catch(console.error);
-    }
-
     if(message.content.startsWith(join)){
         var args1 = argssingle[1].toLocaleLowerCase();
         if(!botconfig.roles.includes(args1))
