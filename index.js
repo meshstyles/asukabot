@@ -123,12 +123,6 @@ bot.on("message", async message => {
         
     }
 
-    function joiner(){
-        var roler = message.guild.roles.find("name", `${args1}`);
-        message.reply(`is ready for ${args1}`);
-        return member.addRole(roler).catch(console.error);
-    }
-
     function leaver(){
         var roler = message.guild.roles.find("name", `${args1}`);
         message.reply(`isn't available for ${args1}`);
@@ -137,56 +131,31 @@ bot.on("message", async message => {
 
     if(message.content.startsWith(join)){
         var args1 = argssingle[1].toLocaleLowerCase();
-        if(!message.member.roles.has(message.guild.roles.find("name", `${args1}`))){
-            switch(args1){
-                case `overwatch`:
-                    joiner();
-                    return;
-                case `cs`:
-                    joiner();
-                    return;
-                case `dota`:
-                    joiner();
-                    return;
-                case `lol`:
-                    joiner();
-                    return;
-                case `changes`:
-                    joiner();
-                    return;
-                case "deals":
-                    joiner();
-                    return;
-                default :
-                    return message.reply(" nah that don't exist fam")
-            }
-        }
+        if(!botconfig.roles.includes(args1))
+            return message.reply("this role is not supported");
+        
+        var roler = message.guild.roles.cache.find(r => r.name === args1 );
+
+        if(message.member.roles.cache.has(roler.id))
+            return message.reply("you allready have that role");
+        
+        message.reply(` is ready for ${args1}`);
+        return message.member.roles.add(roler).catch(console.error);
     }
 
     if(message.content.startsWith(leave)){
         var args1 = argssingle[1].toLocaleLowerCase();
-        switch(args1){
-            case `overwatch`:
-                leaver();
-                return;
-            case "cs":
-                leaver();
-                return;
-            case `dota`:
-                leaver();
-                return;
-            case `lol`:
-                leaver();
-                return;
-            case `changes`:
-                leaver();
-                return;
-            case `deals`:
-                leaver();
-                return;
-            default :
-                return;
-        }
+        if(!botconfig.roles.includes(args1))
+            return message.reply("this role is not supported");
+
+        var roler = message.guild.roles.cache.find(r => r.name === args1 );
+
+        if(!message.member.roles.cache.has(roler.id))
+            return message.reply("you don't have that role");
+
+        message.reply(` doesn't feel a need for ${args1} anymore`);
+        return member.roles.remove(roler).catch(console.error);
     }
 });
+
 bot.login(botconfig.token);
