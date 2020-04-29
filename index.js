@@ -8,8 +8,8 @@ const join  = botconfig.join;
 const leave = botconfig.leave;
 
 bot.on("ready", async() => {
-    console.log(`Asuka is online`)
-    bot.user.setActivity("type -help for help")
+    console.log(`Asuka is online`);
+    bot.user.setActivity("type -help for help");
 });
 
 bot.on("message", async message => {
